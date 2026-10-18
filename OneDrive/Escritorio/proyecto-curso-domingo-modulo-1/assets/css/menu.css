@@ -1,0 +1,38 @@
+.header-container{
+background-color: var(--main-color);
+padding-top: 10px;
+height: 220px;
+}
+.logo{
+width: 120px;
+height: auto;
+padding-top: 5px;
+padding-bottom: 20px;
+padding-left: 20px;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 1rem 1.5rem;
+padding-top: 15px;
+}
+.navbar-links{
+    color: var(--blank-yellow);
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    gap: 1.5rem;
+     font-size: 1.2rem;
+}
+.navbar-links li a{
+    color: var(--blank-yellow);
+}
+.navbar-links li a:hover{
+    color: var(--red);
+   
+}
+.navbar-links li a:active{
+    color: var(--scarlet)
+}

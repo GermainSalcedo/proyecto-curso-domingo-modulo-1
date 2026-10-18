@@ -1,0 +1,7 @@
+.container-quienes-somos{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.warriors{
+    width: 600px;
+}
